@@ -1,0 +1,32 @@
+@media only screen and (max-width: 768px) {
+    #myselfsub{float: right;}
+    #myimage{    
+        width: 100vw;
+        height: 100%;
+        float: left;
+    }
+    #p4{
+        letter-spacing: 0;
+        font-size: inherit;
+        margin: 0%;
+    }
+    #p2{
+        margin:1px 0 0 0;
+        font-size: 2.5em;
+    }
+    #p1{
+        margin: 0 0 1px 0;
+        font-size: 1.5em;
+    }
+    #p3{
+        font-size: 20px;
+    }
+    #p6{
+        margin: 0;
+    }
+    #icon2 {
+        font-size: 25px;
+        margin-top: 20px;
+        letter-spacing: 30px;
+    }
+}

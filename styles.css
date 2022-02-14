@@ -1,0 +1,98 @@
+*{box-sizing: border-box;}
+body{margin: 0; 
+    padding: 0;
+    display: flow-root;
+}
+.mynav{padding-top:40px;}
+.nav{
+    width: 100%;
+    font-size: 25px;
+    position: fixed;
+}
+#navlist{float: right;}
+#navlist,ul,li,a{
+    text-decoration: none;
+    list-style: none; display: 
+    inline-block;
+    margin-top: 0;
+    padding-right: 5px;
+}
+#container1{ 
+    margin-top: 100px;  
+    margin-left: 150px;
+    margin-bottom: 0;
+}
+#container1,#myself,#myselfsub{
+    display: flex;
+}
+#myselfsub{
+    padding-left: 40px;
+    margin: 0;
+    display: block;
+}
+#p1{font-size: 30px;
+
+
+}
+#p2{ font-size: 45px;
+    font-weight: bolder;
+    margin-bottom: 0;
+
+}
+#p3{font-size: 25px;
+    padding-top: 0;
+    margin-top: 0;
+}
+#p5{
+    font-size: 25px;
+    padding-left: 50px;
+}
+#icon1{
+    font-size: 40px;
+}
+#p4{
+    font-size: 20px;
+    letter-spacing: 0.5px;
+}
+#icon2{
+    font-size: 70px;
+    margin-top: 40px;
+    letter-spacing: 5px;
+}
+#p6{
+    margin-top: 20px;
+}
+.btn{
+    font-size: 20px;
+    border-radius: 30px;
+    margin-right: 5px;
+}
+.btn:hover{
+    cursor: pointer;
+}
+#p7{ text-align: center;
+    margin-top: 50px;
+}
+#p8{
+    margin-left: 450px;
+    border: solid;
+    margin-right: 700px;
+    margin-top: 9px;
+    border-radius: 10px;
+}
+#p10{
+    font-size: 40px;
+    margin-left: 45%;
+    margin-top: 40px;
+}
+#container{
+    display: flex;
+    margin-top: 40px;
+}
+#p11{
+    max-width: 400px;
+    margin: 30px;
+    border-style: ridge;
+    border-radius: 9px;
+    border: solid;
+}
