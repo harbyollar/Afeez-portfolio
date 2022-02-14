@@ -1,7 +1,11 @@
 @media only screen and (max-width: 768px) {
+    body{
+        width: 360px;
+    }
     #myselfsub{float: right;}
     .nav{
         font-size: 15px;
+        width: 100%;
     }
     .mynav {
         padding-top: 20px;
@@ -9,6 +13,14 @@
     }
     #navlist {
         float: none;
+    }
+    #container1, #myself, #myselfsub {
+        display: block;
+    }
+    #container1 {
+        margin-top: 100px;
+        margin-left: 20px;
+        margin-bottom: 0;
     }
     #myimage{    
         width: 100vw;
